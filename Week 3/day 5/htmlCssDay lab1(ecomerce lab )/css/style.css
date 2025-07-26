@@ -38,5 +38,39 @@ header > h1 {
     background-position: center;
     background-attachment: fixed;
     height: 500px;
+    color: #606c38 ;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   padding: 40px;
 }
 
+.bannerSection h1 {
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 1px 1px 1px rgb(131, 100, 16) ;
+
+}
+
+.bannerSection div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.bannerSection div p {
+    font-size: 18px;
+}
+
+.bannerSection div a {
+    background-color: #a2d2ff;
+    color : white ;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
