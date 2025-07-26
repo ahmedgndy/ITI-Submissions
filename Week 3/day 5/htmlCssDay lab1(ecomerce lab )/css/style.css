@@ -1,3 +1,12 @@
+:root {
+--primary-color: #008080;       /* Deep Teal */
+  --secondary-color: #FF7F50;     /* Soft Coral */
+  --background-color: #F5F5DC;    /* Light Beige */
+  --text-color: #333333;          /* Dark Charcoal */
+  --accent-color: #FFD700;        /* Gold */
+  --navbar-color: #000080;        /* Navy Blue */ 
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
@@ -8,6 +17,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+        color: var(--navbar-color);
+
 }
 header > h1 {
     width: 50%;
@@ -30,15 +41,14 @@ header > h1 {
 /* ending  header style */
 
 
-/*starting banner seaction*/
-
+/*starting banner section*/
 .bannerSection {
     background-image: url('../images/shopping.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    height: 500px;
-    color: #606c38 ;
+    background-attachment:scroll;
+    height: 400px;
+    color: var(--primary-color) ;
 
    display: flex;
    flex-direction: column;
@@ -51,7 +61,7 @@ header > h1 {
 .bannerSection h1 {
     text-align: center;
     font-size: 50px;
-    box-shadow: 1px 1px 1px rgb(131, 100, 16) ;
+    box-shadow: 1px 1px 1px var(--secondary-color);
 
 }
 
@@ -64,13 +74,58 @@ header > h1 {
 
 .bannerSection div p {
     font-size: 18px;
+    color: var(--text-color);
 }
 
 .bannerSection div a {
-    background-color: #a2d2ff;
+    background-color: var(--background-color);
+    color : var(--primary-color) ;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+/*ending banner section*/
+
+
+/*starting products section */
+.productsSection .products {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.productsSection h2 {
+    text-align: center;
+}
+
+.productsSection .products .card {
+    width: 30%;
+    max-width: 270px;
+    margin: 20px;
+}
+.productsSection .products .card img {
+    width: 100%;
+    scale: cover ;
+    border-radius: 5px;
+}
+.productsSection .products .card p {
+    text-align: center;
+    color: var(--accent-color);
+    font-size: 20px;
+    border-radius: 5px;
+}
+.productsSection .products .card a {
+    display: block;
+    text-align: center;
+    background-color: var(--primary-color);
     color : white ;
     padding: 15px;
     text-decoration: none;
     font-size: 18px;
     border-radius: 5px;
 }
+.productsSection .products .card a:hover {
+    background-color: var(--secondary-color);
+}
+/*===ending products section */
