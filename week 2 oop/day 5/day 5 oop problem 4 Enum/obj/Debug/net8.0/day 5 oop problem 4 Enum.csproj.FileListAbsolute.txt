@@ -1,0 +1,14 @@
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 4 Enum\bin\Debug\net8.0\day 5 oop problem 4 Enum.exe
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 4 Enum\bin\Debug\net8.0\day 5 oop problem 4 Enum.deps.json
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 4 Enum\bin\Debug\net8.0\day 5 oop problem 4 Enum.runtimeconfig.json
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 4 Enum\bin\Debug\net8.0\day 5 oop problem 4 Enum.dll
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 4 Enum\bin\Debug\net8.0\day 5 oop problem 4 Enum.pdb
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 4 Enum\obj\Debug\net8.0\day 5 oop problem 4 Enum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 4 Enum\obj\Debug\net8.0\day 5 oop problem 4 Enum.AssemblyInfoInputs.cache
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 4 Enum\obj\Debug\net8.0\day 5 oop problem 4 Enum.AssemblyInfo.cs
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 4 Enum\obj\Debug\net8.0\day 5 oop problem 4 Enum.csproj.CoreCompileInputs.cache
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 4 Enum\obj\Debug\net8.0\day 5 oop problem 4 Enum.dll
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 4 Enum\obj\Debug\net8.0\refint\day 5 oop problem 4 Enum.dll
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 4 Enum\obj\Debug\net8.0\day 5 oop problem 4 Enum.pdb
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 4 Enum\obj\Debug\net8.0\day 5 oop problem 4 Enum.genruntimeconfig.cache
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 4 Enum\obj\Debug\net8.0\ref\day 5 oop problem 4 Enum.dll

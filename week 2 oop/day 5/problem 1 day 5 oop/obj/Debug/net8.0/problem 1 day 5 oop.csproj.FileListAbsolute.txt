@@ -1,0 +1,14 @@
+C:\Users\El-Wattaneya\Desktop\iti .net\problem 1 day 5 oop\bin\Debug\net8.0\problem 1 day 5 oop.exe
+C:\Users\El-Wattaneya\Desktop\iti .net\problem 1 day 5 oop\bin\Debug\net8.0\problem 1 day 5 oop.deps.json
+C:\Users\El-Wattaneya\Desktop\iti .net\problem 1 day 5 oop\bin\Debug\net8.0\problem 1 day 5 oop.runtimeconfig.json
+C:\Users\El-Wattaneya\Desktop\iti .net\problem 1 day 5 oop\bin\Debug\net8.0\problem 1 day 5 oop.dll
+C:\Users\El-Wattaneya\Desktop\iti .net\problem 1 day 5 oop\bin\Debug\net8.0\problem 1 day 5 oop.pdb
+C:\Users\El-Wattaneya\Desktop\iti .net\problem 1 day 5 oop\obj\Debug\net8.0\problem 1 day 5 oop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\El-Wattaneya\Desktop\iti .net\problem 1 day 5 oop\obj\Debug\net8.0\problem 1 day 5 oop.AssemblyInfoInputs.cache
+C:\Users\El-Wattaneya\Desktop\iti .net\problem 1 day 5 oop\obj\Debug\net8.0\problem 1 day 5 oop.AssemblyInfo.cs
+C:\Users\El-Wattaneya\Desktop\iti .net\problem 1 day 5 oop\obj\Debug\net8.0\problem 1 day 5 oop.csproj.CoreCompileInputs.cache
+C:\Users\El-Wattaneya\Desktop\iti .net\problem 1 day 5 oop\obj\Debug\net8.0\problem 1 day 5 oop.dll
+C:\Users\El-Wattaneya\Desktop\iti .net\problem 1 day 5 oop\obj\Debug\net8.0\refint\problem 1 day 5 oop.dll
+C:\Users\El-Wattaneya\Desktop\iti .net\problem 1 day 5 oop\obj\Debug\net8.0\problem 1 day 5 oop.pdb
+C:\Users\El-Wattaneya\Desktop\iti .net\problem 1 day 5 oop\obj\Debug\net8.0\problem 1 day 5 oop.genruntimeconfig.cache
+C:\Users\El-Wattaneya\Desktop\iti .net\problem 1 day 5 oop\obj\Debug\net8.0\ref\problem 1 day 5 oop.dll

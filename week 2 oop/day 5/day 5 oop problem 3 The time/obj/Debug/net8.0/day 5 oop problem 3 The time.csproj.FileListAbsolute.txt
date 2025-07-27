@@ -1,0 +1,14 @@
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 3 The time\obj\Debug\net8.0\day 5 oop problem 3 The time.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 3 The time\obj\Debug\net8.0\day 5 oop problem 3 The time.AssemblyInfoInputs.cache
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 3 The time\obj\Debug\net8.0\day 5 oop problem 3 The time.AssemblyInfo.cs
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 3 The time\obj\Debug\net8.0\day 5 oop problem 3 The time.csproj.CoreCompileInputs.cache
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 3 The time\bin\Debug\net8.0\day 5 oop problem 3 The time.exe
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 3 The time\bin\Debug\net8.0\day 5 oop problem 3 The time.deps.json
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 3 The time\bin\Debug\net8.0\day 5 oop problem 3 The time.runtimeconfig.json
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 3 The time\bin\Debug\net8.0\day 5 oop problem 3 The time.dll
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 3 The time\bin\Debug\net8.0\day 5 oop problem 3 The time.pdb
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 3 The time\obj\Debug\net8.0\day 5 oop problem 3 The time.dll
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 3 The time\obj\Debug\net8.0\refint\day 5 oop problem 3 The time.dll
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 3 The time\obj\Debug\net8.0\day 5 oop problem 3 The time.pdb
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 3 The time\obj\Debug\net8.0\day 5 oop problem 3 The time.genruntimeconfig.cache
+C:\Users\El-Wattaneya\Desktop\iti .net\day 5 oop problem 3 The time\obj\Debug\net8.0\ref\day 5 oop problem 3 The time.dll
