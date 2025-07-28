@@ -84,3 +84,11 @@ console.log(slice[1])
 var numberRound = 7.887
 
 console.log(number.toFixed(2))
+
+//task 12
+
+var userInput = parseInt(prompt("enter a number"));
+
+if (userInput%3 ==  0 && userInput%5 == 0){
+    console.log("truuuue")
+}
