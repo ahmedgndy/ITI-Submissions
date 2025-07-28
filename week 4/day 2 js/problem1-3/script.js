@@ -37,3 +37,8 @@ var fnumber = prompt("frist number") ;
 var snumber = prompt("second number");
 var resultOfSum = parseFloat(fname) + parseFloat(snumber)
 alert("the summation is : " +resultOfSum)
+
+//problem 8
+
+var salary ; 
+console.log(typeof salary);
