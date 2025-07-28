@@ -63,3 +63,10 @@ do {
     } while (isFavorite)
     isChoosen = confirm("you choose " + ChoosenColor)
 } while (isChoose)
+
+//task  9
+var n1 = parseInt(prompt("number 1"));
+var n2 = parseInt(prompt("number 2"));
+
+var differece = n1 - n2 ;
+console.log(differece>=0 ? differece : -differece );
