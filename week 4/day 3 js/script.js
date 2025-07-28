@@ -1,3 +1,5 @@
+
+
 // task  1
 
 var number = parseInt(prompt("enter a number to check for positive or negative or zero"));
@@ -70,3 +72,9 @@ var n2 = parseInt(prompt("number 2"));
 
 var differece = n1 - n2 ;
 console.log(differece>=0 ? differece : -differece );
+
+//task 10
+
+var  massage = "Hello word" ;
+var slice = massage.split(" ")
+console.log(slice[1])
