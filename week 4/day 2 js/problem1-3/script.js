@@ -13,3 +13,7 @@ var city ;
 console.log(city)
 city = "cairo";
 console.log(city)
+
+//problem 4
+
+alert("Wlecome to our websit")
