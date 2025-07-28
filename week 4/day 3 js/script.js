@@ -1,0 +1,4 @@
+// task  1
+
+var number = parseInt(prompt("enter a number to check for positive or negative or zero"));
+alert (number>=0 ? (number>0 ? "positive": "zero " ): "negative")
