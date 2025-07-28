@@ -17,3 +17,8 @@ console.log(city)
 //problem 4
 
 alert("Wlecome to our websit")
+
+//problem 5 
+var response = confirm("are you want to show ");
+var output = response ? "true" : "false";
+console.log(output) ;
