@@ -36,3 +36,17 @@ switch(age){
 
 }
 console.log("you are  " + cata)
+
+//task 5
+
+
+
+
+
+
+
+//task 6 
+
+
+var word = prompt("enter a word") ;
+alert (word[0].toUpperCase + word.slice(1));
