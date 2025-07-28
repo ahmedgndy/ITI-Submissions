@@ -9,3 +9,7 @@ var result = num1+num1
 console.log(result)
 
 //problem 3
+var city ; 
+console.log(city)
+city = "cairo";
+console.log(city)
