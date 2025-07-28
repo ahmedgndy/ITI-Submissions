@@ -78,3 +78,9 @@ console.log(differece>=0 ? differece : -differece );
 var  massage = "Hello word" ;
 var slice = massage.split(" ")
 console.log(slice[1])
+
+//task 11
+
+var numberRound = 7.887
+
+console.log(number.toFixed(2))
