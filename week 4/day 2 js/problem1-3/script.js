@@ -42,3 +42,12 @@ alert("the summation is : " +resultOfSum)
 
 var salary ; 
 console.log(typeof salary);
+
+//Bouns 
+
+var a = 5 ;
+var b = 10 ;
+a *= b ;
+          //a = 50 ,b 10
+b /= a ; // a 50 , b = 5
+a /= b ; // a  10 , b =5
