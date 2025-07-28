@@ -22,3 +22,11 @@ alert("Wlecome to our websit")
 var response = confirm("are you want to show ");
 var output = response ? "true" : "false";
 console.log(output) ;
+
+//problem 6
+
+var fname = prompt("frist name")
+var lname = prompt("lname")
+confirm("ary you name is " + fname + lname)
+var brithData = prompt("birth year")
+alert("wellcome to my website" + fname + brithData) 
