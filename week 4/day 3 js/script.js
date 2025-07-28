@@ -15,3 +15,24 @@ if (result){
 //task  3
 var num = 10 ;
 console.log(num % 2 ===0 ? "hi " : "helloo");
+
+//task 4
+do {
+var age = parseInt(prompt("enter you age"))
+}while(age>0)
+
+var  cata = "chile"
+switch(age){
+    case age <= 10:
+        break ; 
+    case age <=18 :
+        cata  = "teen"
+       break; 
+    case   age <= 50 :
+        cata = "grown"
+        break 
+    default : 
+        cata = "old"
+
+}
+console.log("you are  " + cata)
