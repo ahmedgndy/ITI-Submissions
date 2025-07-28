@@ -30,3 +30,10 @@ var lname = prompt("lname")
 confirm("ary you name is " + fname + lname)
 var brithData = prompt("birth year")
 alert("wellcome to my website" + fname + brithData) 
+
+//problem 7
+
+var fnumber = prompt("frist number") ;
+var snumber = prompt("second number");
+var resultOfSum = parseFloat(fname) + parseFloat(snumber)
+alert("the summation is : " +resultOfSum)
