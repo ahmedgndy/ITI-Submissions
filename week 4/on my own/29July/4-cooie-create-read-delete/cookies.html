@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 300px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id = "username" name="username">
+    <button id = "bt1" onclick="saveInfo()">save into</button>
+
+    <script> 
+        function saveInfo () {
+            var date = new Date() ;
+            date.setMonth(date.getMonth + 3)
+
+            var value = document.getElementById("username").value
+                             //template literals
+            document.cookie = `usernameCookie=${value}; expires=${date}`;
+            
+        }
+    </script>
+</body>
+</html>
