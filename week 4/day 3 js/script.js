@@ -1,36 +1,37 @@
 
 
-// task  1
+// task  1 (positive, negative, or zero)
 
-var number = parseInt(prompt("enter a number to check for positive or negative or zero"));
-alert(number >= 0 ? (number > 0 ? "positive" : "zero ") : "negative")
+//var number = parseInt(prompt("enter a number to check for positive or negative or zero"));
+//alert(number >= 0 ? (number > 0 ? "positive" : "zero ") : "negative")
 
 //task 2
 
-var result = confirm("do you want to proceed? ")
-if (result) {
-    alert("You choose to proceed ")
-} else {
-    alert("action Canceled")
-}
+//var result = confirm("do you want to proceed? ")
+//if (result) {
+//     alert("You choose to proceed ")
+// } else {
+//     alert("action Canceled")
+// }
 
 //task  3
-var num = 10;
-console.log(num % 2 === 0 ? "hi " : "helloo");
+// var num = 10;
+// console.log(num % 2 === 0 ? "hi " : "helloo");
 
 //task 4
+var age ;
 do {
-    var age = parseInt(prompt("enter you age"))
+     age = parseInt(prompt("enter you age"))
 } while (age < 0)
 
-var cata = "chile"
+var cata = "child"
 switch (age) {
-    case age <= 10:
+    case age >= 10:
         break;
-    case age <= 18:
+    case age >= 18:
         cata = "teen"
         break;
-    case age <= 50:
+    case age >= 50:
         cata = "grown"
         break
     default:
@@ -40,6 +41,14 @@ switch (age) {
 console.log("you are  " + cata)
 
 //task 5
+ var date = new Date() 
+ var hours = date.getHours()
+
+ if(hours<11) {
+    console.log(hours + "am")
+ }else {
+    console.log(hours-12 + "pm" )
+ }
 
 
 
@@ -54,17 +63,17 @@ var word = prompt("enter a word");
 alert(word[0].toUpperCase() + word.slice(1));
 //task 7
 
-do {
+
     var ChoosenColor;
     var isFavorite;
-    var ischoosen;
+    
     do {
         ChoosenColor = prompt("your favorite color is : ");
         isFavorite = confirm("is your favorite color " + ChoosenColor)
 
     } while (isFavorite)
-    isChoosen = confirm("you choose " + ChoosenColor)
-} while (isChoose)
+     confirm("you choose " + ChoosenColor)
+
 
 //task  9
 var n1 = parseInt(prompt("number 1"));
