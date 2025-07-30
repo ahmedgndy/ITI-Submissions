@@ -62,3 +62,24 @@ try  {
 }catch( erro){
     print(erro.massage)
 }
+
+
+//task 6
+
+function takeInput(){
+    var isvalid = false
+    do {
+    var brithDate =  prompt("enter your brithDate: ") ;
+    const dateRegex = /\d{4}-\d{2}-\d{2}/g; 
+    isvalid = dateRegex.test(dateRegex)
+    if(!isvalid){
+        alert("you enterd wrong")
+    }
+    }while(isvalid)
+    var slipbrithDate = brithDate.split("-")
+    var date = new Date() ;
+    date.setFullYear(parseInt(slipbrithDate[0]))
+    date.setMonth(parseInt(slipbrithDate[1]))
+    date.setDate(parseInt(slipbrithDate[2]))
+    alert(date)
+}
