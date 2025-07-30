@@ -40,5 +40,25 @@ function calculate() {
             result = fristNumber / secondNumber;
             break;
     }
-    return result ; 
+    return result;
+}
+
+//task 4
+
+function check() {
+    var username = prompt("usrname ; ")
+    var password = prompt("password: ")
+
+    if (username = "ahmed" && password == "ahmed") {
+        alert("wellcome te my systm")
+    } else {
+        throw new Error("wrong data enterd")
+
+    }
+}
+
+try  {
+     check()
+}catch( erro){
+    print(erro.massage)
 }
