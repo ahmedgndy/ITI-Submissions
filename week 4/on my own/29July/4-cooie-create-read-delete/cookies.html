@@ -11,10 +11,15 @@
     </style>
 </head>
 <body>
-    <input type="text" id = "username" name="username">
-    <button id = "bt1" onclick="saveInfo()">save into</button>
+    <input type="text" id = "username" name="username">  <br>
+    <button  onclick="saveInfo()">save into</button>
+    <br>
+    <button onclick="displayInfo()"> Display info in The Cookie</button>
+    <div> </div>
 
-    <script> 
+    <script>
+    
+        //create a cookie
         function saveInfo () {
             var date = new Date() ;
             date.setMonth(date.getMonth + 3)
@@ -23,6 +28,11 @@
                              //template literals
             document.cookie = `usernameCookie=${value}; expires=${date}`;
             
+        }
+
+        //display a cookie
+        function displayInfo() {
+
         }
     </script>
 </body>
