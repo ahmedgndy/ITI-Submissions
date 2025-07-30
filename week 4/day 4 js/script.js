@@ -63,7 +63,16 @@ try  {
     print(erro.massage)
 }
 
-
+//task 5
+function gussANumber(){
+    var number = parseInt(prompt("enter a number"))
+    var roundNum = Math.random(0, 9)
+    if (roundNum == number){
+        alert("you gussed right")
+    }else {
+        alert("you  gussed worng")
+    }
+}
 //task 6
 
 function takeInput(){
