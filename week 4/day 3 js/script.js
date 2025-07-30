@@ -1,22 +1,22 @@
 
 
-// task  1 (positive, negative, or zero)
+task  1 (positive, negative, or zero)
 
-//var number = parseInt(prompt("enter a number to check for positive or negative or zero"));
-//alert(number >= 0 ? (number > 0 ? "positive" : "zero ") : "negative")
+var number = parseInt(prompt("enter a number to check for positive or negative or zero"));
+alert(number >= 0 ? (number > 0 ? "positive" : "zero ") : "negative")
 
-//task 2
+task 2
 
-//var result = confirm("do you want to proceed? ")
-//if (result) {
-//     alert("You choose to proceed ")
-// } else {
-//     alert("action Canceled")
-// }
+var result = confirm("do you want to proceed? ")
+if (result) {
+    alert("You choose to proceed ")
+} else {
+    alert("action Canceled")
+}
 
-//task  3
-// var num = 10;
-// console.log(num % 2 === 0 ? "hi " : "helloo");
+task  3
+var num = 10;
+console.log(num % 2 === 0 ? "hi " : "helloo");
 
 //task 4
 var age ;
@@ -41,15 +41,14 @@ switch (age) {
 console.log("you are  " + cata)
 
 //task 5
- var date = new Date() 
- var hours = date.getHours()
+var dateHours = prompt("enter hours") ;
 
- if(hours<11) {
-    console.log(hours + "am")
+ if(dateHours<11) {
+    console.log(dateHours + "am")
  }else {
-    console.log(hours-12 + "pm" )
+     let temp = dateHours- 12
+    console.log(temp+ "pm" )
  }
-
 
 
 
@@ -76,11 +75,17 @@ alert(word[0].toUpperCase() + word.slice(1));
 
 
 //task  9
-var n1 = parseInt(prompt("number 1"));
-var n2 = parseInt(prompt("number 2"));
+var n1 = prompt("Enter date 1 (e.g., 2023-07-01):");
+var n2 = prompt("Enter date 2 (e.g., 2023-07-30):");
 
-var differece = n1 - n2 ;
-console.log(differece>=0 ? differece : -differece );
+var date1 = new Date(n1);
+var date2 = new Date(n2);
+
+var timeDifference = Math.abs(date2 - date1); 
+
+var days = timeDifference / (1000 * 60 * 60 * 24); 
+
+console.log("Difference in days: " + days);
 
 //task 10
 
@@ -101,3 +106,4 @@ var userInput = parseInt(prompt("enter a number"));
 if (userInput%3 ==  0 && userInput%5 == 0){
     console.log("truuuue")
 }
+

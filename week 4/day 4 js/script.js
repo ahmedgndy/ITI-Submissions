@@ -1,11 +1,11 @@
 //task 1
 
 var password = "p@$$"
-var userInput
+var userInput ;
 
 do {
     userInput = prompt("enter a password : ")
-} while (userInput == password)
+} while ( !(userInput == password))
 
 //task 2
 
@@ -75,20 +75,52 @@ function gussANumber(){
 }
 //task 6
 
-function takeInput(){
-    var isvalid = false
+function takeInput() {
+    var isValid = false;
+    var birthDate;
+
     do {
-    var brithDate =  prompt("enter your brithDate: ") ;
-    const dateRegex = /\d{4}-\d{2}-\d{2}/g; 
-    isvalid = dateRegex.test(dateRegex)
-    if(!isvalid){
-        alert("you enterd wrong")
-    }
-    }while(isvalid)
-    var slipbrithDate = brithDate.split("-")
-    var date = new Date() ;
-    date.setFullYear(parseInt(slipbrithDate[0]))
-    date.setMonth(parseInt(slipbrithDate[1]))
-    date.setDate(parseInt(slipbrithDate[2]))
-    alert(date)
+        birthDate = prompt("Enter yourbriday :");
+
+        if (birthDate.length === 10 && birthDate[2] === '-' && birthDate[5] === '-') {
+            isValid = true;
+        } else {
+            alert("wrong Format");
+        }
+
+    } while (!isValid);
+
+    var parts = birthDate.split("-"); 
+    var day = parseInt(parts[0]);
+    var month = parseInt(parts[1]) - 1; 
+    var year = parseInt(parts[2]);
+
+    var date = new Date(year, month, day);
+
+    alert("Valid data: " + date.toDateString());
 }
+
+//task 6
+let input = prompt("Enter a string:").toLowerCase();
+let a = 0, e = 0, i = 0, o = 0, u = 0;
+
+for (let char of input) {
+    switch (char) {
+        case 'a': a++; break;
+        case 'e': e++; break;
+        case 'i': i++; break;
+        case 'o': o++; break;
+        case 'u': u++; break;
+    }
+}
+
+console.log(`a = ${a}, e = ${e}, o = ${o}, u = ${u}, i = ${i}`);
+
+//task 7 
+function getName(dateString) {
+    const date = new Date(dateString);
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    return days[date.getDay()];
+}
+console.log(getName("2025-07-30")); 
+console.log(getName("2025-08-02"));
