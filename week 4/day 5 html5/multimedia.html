@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .video {
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>autoplay muted looped video </h3>
+    <video autoplay muted loop id="video" class="video">
+        <source src="https://videos.pexels.com/video-files/2098989/2098989-uhd_2560_1440_30fps.mp4" type="video/mp4">
+    </video><br>
+
+
+    <h3>play an audio </h3>
+    <button onclick="playAudio()"> play Audio</button>
+    <audio id="audio" hidden>
+        <source src="sould.mp3" type="audio/mp3">
+    </audio>
+
+
+    <h3> pause and resume on click </h3>
+    <video muted loop id="video2"  class="video">
+        <source src="https://videos.pexels.com/video-files/2098989/2098989-uhd_2560_1440_30fps.mp4" type="video/mp4">
+    </video>
+
+
+    <script>
+        function playAudio() {
+            const audio = document.getElementById("audio");
+            audio.play()
+
+
+        }
+
+        const vedio2 = document.getElementById("video2");
+        video2.addEventListener("click", function () {
+            if (vedio2.paused) {
+                vedio2.play()
+
+            } else {
+                vedio2.pause()
+            }
+        })
+    </script>
+</body>
+
+</html>
