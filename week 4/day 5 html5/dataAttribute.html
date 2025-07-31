@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li data-price ="29">watch</li>
+        <li data-price ="50">phone</li>
+        <li data-price ="10">keboard</li>
+        <li data-price ="100">labtop</li>
+
+    </ul>
+    <button onclick="filter()">show only less then 50 $</button>
+</body>
+<script>
+    function filter(){
+        const items = document.querySelectorAll("li");
+        items.forEach(item => {
+            const price = parseFloat (item.dataset.price) ;
+            if(price<50) {
+                item.style.display = "list-item"
+            }else {
+                item.style.display ="none"
+            }
+        })
+    }
+</script>
+</html>
+
+<!-- 
+if (price < 50) {
+    item.style.display = "list-item"; // ✅ show the item
+} else {
+    item.style.display = "none";      // ❌ hide the item
+}
+ -->

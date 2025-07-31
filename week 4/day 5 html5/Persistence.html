@@ -22,13 +22,13 @@
 
 <script>
         function showPersistedData() {
-            // Load from localStorage
+            // Load localStorage
             const savedUsername = localStorage.getItem("username");
             if (savedUsername) {
                 document.getElementById("username").value = savedUsername;
             }
 
-            // Load from sessionStorage
+            // Load sessionStorage
             const sessionName = sessionStorage.getItem("firstName");
             if (sessionName) {
                 document.getElementById("sessionDisplay").textContent =
