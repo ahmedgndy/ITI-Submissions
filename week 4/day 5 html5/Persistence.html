@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="showPersistedData()">
+    <h2>presiste for `localStorage` for long-term storage</h2>
+    <form action="#">
+    <input type="text"  placeholder="username"  id="username" >
+    <input type="submit" onclick="saveToLocal()">
+   </form>
+
+    <h2>sessionStorage` for temporary usage</h2>
+    <form action="#">
+    <input type="text"  placeholder="first name"  id="fname" >
+    <input type="submit" onclick="saveToSession()">
+   </form>
+   <div id="div"></div>
+</body>
+
+<script>
+        function showPersistedData() {
+            // Load from localStorage
+            const savedUsername = localStorage.getItem("username");
+            if (savedUsername) {
+                document.getElementById("username").value = savedUsername;
+            }
+
+            // Load from sessionStorage
+            const sessionName = sessionStorage.getItem("firstName");
+            if (sessionName) {
+                document.getElementById("sessionDisplay").textContent =
+                    "First Name from sessionStorage: " + sessionName;
+            }
+        }
+
+
+    function  saveToLocal() {
+        const usernameInput = document.getElementById("fname")
+        const saveUserName =  localStorage.getItem("username")
+        localStorage.setItem("username" , usernameInput.value)
+
+    }
+
+    function saveToSession()
+    {
+     const textInput = document.getElementById("fname")
+     localStorage.setItem("fristName" , textInput.value)
+ 
+
+     const uiUpdate = document.getElementById("div")
+     uiUpdate.innerHTML =     "First Name from sessionStorage: " + textInput.value
+    }        
+    
+
+</script>
+</html>
