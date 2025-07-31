@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <form action="#">
+        <label for="Date">Trip Data</label>
+        <input type="date" name="trap" id="data" required><br>
+
+        <label for="range">Bugate</label>
+        <input type="range" name="range" id="range" min="500" max="1000"  required>
+        <span id="rangeValue"> 500 </span><br>
+
+       <label for="destination" > Destination</label>
+        <input type="text" list="destination"  >
+        <datalist id="destination" >
+             <option value="paris">
+             <option value="cario">
+            <option value="fayoum">
+        </datalist>
+    </form>
+    <script>
+        const range = document.getElementById("range") 
+        const output = document.getElementById("rangeValue")
+
+        output.textContent = range.value ;
+
+        range.addEventListener("input" , function(){
+            output.textContent = this.value ;
+        })
+    </script>
+</body>
+</html>
