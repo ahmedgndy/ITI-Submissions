@@ -1,7 +1,7 @@
 //Task 1 
-//define an object representing a car with properties 
-//like brand, model, and year, 
-// and a method to display its details.
+//define an objectcar with properties 
+//brand, model, and year, 
+//and display its details.
 
 var car = { brand : "Bmw" , 
             model:"z66" ,
@@ -13,3 +13,11 @@ var car = { brand : "Bmw" ,
         }
 //diplay information about the car       
 car.display()
+
+//Task 2
+//loop through all the properties of
+//an object and
+for(propertie in car) {
+    console.log("key: " + propertie)
+    console.log("Value: " + car[propertie])
+}
