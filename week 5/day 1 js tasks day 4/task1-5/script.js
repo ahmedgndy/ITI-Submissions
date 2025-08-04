@@ -75,3 +75,15 @@ let min = Math.min(...min)
 
 console.log("Max:", max);
 console.log("Min:", min);
+
+//Task 7
+//reverse an array without using the built-in reverse() method
+function reverse(arr) {
+    let reverseArray = []
+    for(let i = arr.length-1 ; i>=0; i--) {
+        reverseArray.push(arr[i])
+    }
+    return reverseArray 
+}
+console.log(reverse([1, 2, 3, 4])); 
+
