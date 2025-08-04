@@ -55,3 +55,14 @@ let person = {
         console.log(`Previous Job: ${this.job.previousJob}`);
     }
 }
+//Task 5
+//sort an array of objects by a specific property,
+//such as age in an array of people objects.
+let people = [
+    { name: "Ahmed", age: 23 },
+    { name: "Sara", age: 27 },
+    { name: "Omar", age: 30 },
+    { name: "Mona", age: 22 },
+    { name: "Youssef", age: 25 }
+];
+people.sort(function(a , b) {return a["age"] - b["age"]})
