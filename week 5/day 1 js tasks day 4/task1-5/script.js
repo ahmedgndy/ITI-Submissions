@@ -32,7 +32,7 @@ function swapKeyVaule(obj) {
          swapped[obj[key]] = key 
         }
     }
-    return swappedObject
+    return swapped
 }
 const obj = { a: 1, b: 2 };
 console.log(swapKeyVaule(obj))
@@ -71,7 +71,7 @@ people.sort(function(a , b) {return a["age"] - b["age"]})
 //find the maximum and minimum numbers in an array.
 let numbers = [42, 17, 8, 99, 23, 64, 12, 50];
 let max = Math.max(...numbers) // spreate array 42 , 17 ...
-let min = Math.min(...min)
+let min = Math.min(...numbers)
 
 console.log("Max:", max);
 console.log("Min:", min);
@@ -121,3 +121,25 @@ function convertToDayName(stringData) {
     const date = new Date(stringData);
     return days[date.getDay()];
 }
+
+//Task 10
+//  Ask the user through prompt to enter number 
+// like 1,6,5,9,1,2T
+// then ask the user through prompt to enter number 
+// like 5,6,3,1,9 merge two arrays and remove duplicate items 
+// and display new array don’t use set
+let input1  = prompt("enter 5,6,3,1,9")
+let input2 =  prompt("Enter second list of numbers, like: 5,6,3,1,9");
+
+let arr1 = input1.split(",").map(Number) ;
+let arr2 = input2.split(",").map(Number) ;
+
+let margedArray = arr1.concat(arr2)
+
+let uniqueArray   = []
+for (let i = 0 ; i<margedArray.length ; i++) {
+    if(!uniqueArray.includes(margedArray[i])) {
+        uniqueArray.push(margedArray[i]);
+    }
+}
+let sortedArray = uniqueArray.sort((a, b) => a - b);
