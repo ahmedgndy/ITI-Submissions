@@ -103,12 +103,21 @@ products.forEach(product=> {
 }
 );
 //also i can use map 
-let discountedArray = products.map ( product =>  {
-    return   {
+let discountedArray = products.map(product => {
+    return {
         name: product.name,
         price: product.price,
         discountedPrice: product.price * 0.8
     };
-}
+});
 
-)
+//Task 8
+//Make a function that takes date string as a parameter,
+//and returns the Day name (Saturday, Sunday,…) of the given date
+
+
+function convertToDayName(stringData) {
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const date = new Date(stringData);
+    return days[date.getDay()];
+}
