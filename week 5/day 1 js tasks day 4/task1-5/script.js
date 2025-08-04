@@ -87,3 +87,28 @@ function reverse(arr) {
 }
 console.log(reverse([1, 2, 3, 4])); 
 
+//Task 8 
+//an array of objects (e.g., products with name and price) 
+//and returns an array of objects where each product has a discountedPrice property
+let products = [
+    { name: "Tooth Brush", price: 12.5 },
+    { name: "Shampoo", price: 35.0 },
+    { name: "Soap", price: 8.75 },
+    { name: "Towel", price: 50.0 },
+    { name: "Toothpaste", price: 22.0 },
+    { name: "Face Wash", price: 40.0 }
+];
+products.forEach(product=> {
+    products.discountedPrice  = product.price * 0.8 ;
+}
+);
+//also i can use map 
+let discountedArray = products.map ( product =>  {
+    return   {
+        name: product.name,
+        price: product.price,
+        discountedPrice: product.price * 0.8
+    };
+}
+
+)
