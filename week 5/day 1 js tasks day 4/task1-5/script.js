@@ -66,3 +66,12 @@ let people = [
     { name: "Youssef", age: 25 }
 ];
 people.sort(function(a , b) {return a["age"] - b["age"]})
+
+//Task 6 
+//find the maximum and minimum numbers in an array.
+let numbers = [42, 17, 8, 99, 23, 64, 12, 50];
+let max = Math.max(...numbers) // spreate array 42 , 17 ...
+let min = Math.min(...min)
+
+console.log("Max:", max);
+console.log("Min:", min);
