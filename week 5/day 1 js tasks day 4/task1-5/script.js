@@ -21,3 +21,18 @@ for(propertie in car) {
     console.log("key: " + propertie)
     console.log("Value: " + car[propertie])
 }
+
+//Task 3
+//a function that accepts an object 
+//and returns a new object with the keys and values swapped
+function swapKeyVaule(obj) {
+    var swapped = {}
+    for(key in obj) {
+        if(obj.hasOwnProperty(key)) {
+         swapped[obj[key]] = key 
+        }
+    }
+    return swappedObject
+}
+const obj = { a: 1, b: 2 };
+console.log(swapKeyVaule(obj))
