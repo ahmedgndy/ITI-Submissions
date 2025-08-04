@@ -1,0 +1,47 @@
+body {
+    margin: 0; /* remove default body margin */
+    min-height: 100vh; /* full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; /* optional but good for responsiveness */
+    height: 100vh; /* optional but helps if needed */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+     height: 500px;
+    background-color: #f0f4f8;
+}
+
+.inputStyle {
+   height: 50px;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;            /* soft gray border */
+    border-radius: 8px;                /* rounded corners */
+    background-color: #ffffff;         /* white background */
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.loginButton {
+    weight: 50px;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;          
+    border-radius: 8px;               
+    font-size: 16px;
+    box-sizing: border-box;
+}
