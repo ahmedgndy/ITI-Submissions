@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">
+    <title>Document</title>
+</head>
+<body onload="displaySilders()">
+    <div class="container">
+        <div class="silder">
+                <img src="" alt="" id="img">
+                <p id = "imageTitle"></p>
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="back" onclick="goBack()"> back </button>
+        <button id="forward" onclick="goForward()"> forward </button>
+        <button id ="stop" onclick="stopIterval()"> stop </button>
+        <button id ="play" onclick="playIterval(1)"> play </button>
+        <button id ="X4" onclick="playIterval(4)" > x4 </button>
+        <button id ="X4" onclick="playIterval(6)" > x6 </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
