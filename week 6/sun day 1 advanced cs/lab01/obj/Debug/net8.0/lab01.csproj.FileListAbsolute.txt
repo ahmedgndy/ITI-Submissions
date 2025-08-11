@@ -1,0 +1,15 @@
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\sun day 1 advanced cs\lab01\bin\Debug\net8.0\lab01.exe
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\sun day 1 advanced cs\lab01\bin\Debug\net8.0\lab01.deps.json
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\sun day 1 advanced cs\lab01\bin\Debug\net8.0\lab01.runtimeconfig.json
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\sun day 1 advanced cs\lab01\bin\Debug\net8.0\lab01.dll
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\sun day 1 advanced cs\lab01\bin\Debug\net8.0\lab01.pdb
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\sun day 1 advanced cs\lab01\obj\Debug\net8.0\lab01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\sun day 1 advanced cs\lab01\obj\Debug\net8.0\lab01.AssemblyInfoInputs.cache
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\sun day 1 advanced cs\lab01\obj\Debug\net8.0\lab01.AssemblyInfo.cs
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\sun day 1 advanced cs\lab01\obj\Debug\net8.0\lab01.csproj.CoreCompileInputs.cache
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\sun day 1 advanced cs\lab01\obj\Debug\net8.0\lab01.sourcelink.json
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\sun day 1 advanced cs\lab01\obj\Debug\net8.0\lab01.dll
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\sun day 1 advanced cs\lab01\obj\Debug\net8.0\refint\lab01.dll
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\sun day 1 advanced cs\lab01\obj\Debug\net8.0\lab01.pdb
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\sun day 1 advanced cs\lab01\obj\Debug\net8.0\lab01.genruntimeconfig.cache
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\sun day 1 advanced cs\lab01\obj\Debug\net8.0\ref\lab01.dll
