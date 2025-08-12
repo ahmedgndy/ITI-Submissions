@@ -4,47 +4,27 @@
     {
         static void Main(string[] args)
         {
-            try
+
+            EmployeesManager m1 = new EmployeesManager();
+
+            Employee emp1 = m1[122] as Employee;
+            if (emp1 != null)
             {
-                //hiredData 
-                HireData em1HiredDate = new HireData(1, 10, 2010);
-                HireData em2HiredDate = new HireData(1, 9, 2006);
-                HireData em3HiredDate = new HireData(1, 10, 2007);
-
-                //employees 
-                Employee employee1 = new Employee("Ahmed", 1000, em1HiredDate, Gender.male, Privileges.developer);
-                Employee employee2 = new Employee("Zahra", 1000, em2HiredDate, Gender.female, Privileges.secreary);
-
-                // doesn't  make a sence to give a guesst a hiredData 
-                Employee employee3 = new Employee("AhmedDuplicated", 1000, em3HiredDate, Gender.male, Privileges.guest);
-
-                //array of size 3 
-                Employee[] employees = { employee1, employee2, employee3 };
-
-                Array.Sort(employees);
-
-                foreach (Employee employee in employees)
-                {
-                    Console.WriteLine(employee.FirstName);
-
-                }
+                Console.WriteLine($"{emp1.Id} {emp1.FirstName} {emp1.Privileges}");
             }
-            catch (ArgumentOutOfRangeException ex)
+            HireData em1HiredDate = new HireData(1, 10, 2010);
+            Employee emp2 = m1[em1HiredDate] as Employee;
+
+            if (emp2 != null)
             {
-                Console.WriteLine(ex.Message);
-            }
-            finally
-            {
+                Console.WriteLine($"{emp2.Id} {emp2.FirstName} {emp2.Privileges}");
 
-                Console.WriteLine("finally in cs will runs also there is a problem or not ");
             }
+
+            Employee emp3 = m1["Ahmed"];
+            Console.WriteLine($"{emp3.Id} {emp3.FirstName} {emp3.Privileges}");
 
         }
-        static bool  CompareHiringData(Employee emp1 , Employee emp2 )
-
-        {
-
-            return false;
-        }
+       
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab01
 {
-    internal struct  Employee : IComparable<Employee>
+    internal class  Employee : IComparable<Employee>
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
@@ -18,9 +18,9 @@ namespace lab01
 
         public Privileges Privileges { get; set; }
 
-        public Employee( string fristName, decimal salary, HireData hiredata ,Gender gender = Gender.male, Privileges privileges = Privileges.guest) {
-            Random random = new Random();
-            this.Id = random.Next(100000);
+        public Employee( string fristName, int id ,decimal salary, HireData hiredata ,Gender gender = Gender.male, Privileges privileges = Privileges.guest) {
+          
+            this.Id = id;
 
             this.FirstName = fristName;
             this.Salary = salary;
@@ -30,6 +30,8 @@ namespace lab01
 
         }
 
+        //indexer 
+      
         public int CompareTo(Employee other)
         {
             return this.Hiredata.HiringDate.CompareTo(other.Hiredata.HiringDate);

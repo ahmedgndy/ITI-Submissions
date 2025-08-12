@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{D89FBC7B-1593-46CD-9474-42A55BF62069}|lab01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D89FBC7B-1593-46CD-9474-42A55BF62069}|lab01.csproj|c:\\users\\el-wattaneya\\desktop\\iti-submissions\\week 6\\sun day 1 advanced cs\\lab01\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D89FBC7B-1593-46CD-9474-42A55BF62069}|lab01.csproj|solutionrelative:employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D89FBC7B-1593-46CD-9474-42A55BF62069}|lab01.csproj|c:\\users\\el-wattaneya\\desktop\\iti-submissions\\week 6\\sun day 1 advanced cs\\lab01\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D89FBC7B-1593-46CD-9474-42A55BF62069}|lab01.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D89FBC7B-1593-46CD-9474-42A55BF62069}|lab01.csproj|c:\\users\\el-wattaneya\\desktop\\iti-submissions\\week 6\\sun day 1 advanced cs\\lab01\\hiredata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D89FBC7B-1593-46CD-9474-42A55BF62069}|lab01.csproj|solutionrelative:hiredata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D89FBC7B-1593-46CD-9474-42A55BF62069}|lab01.csproj|c:\\users\\el-wattaneya\\desktop\\iti-submissions\\week 6\\sun day 1 advanced cs\\lab01\\privileges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D89FBC7B-1593-46CD-9474-42A55BF62069}|lab01.csproj|c:\\users\\el-wattaneya\\desktop\\iti-submissions\\week 6\\sun day 1 advanced cs\\lab01\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D89FBC7B-1593-46CD-9474-42A55BF62069}|lab01.csproj|solutionrelative:gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D89FBC7B-1593-46CD-9474-42A55BF62069}|lab01.csproj|c:\\users\\el-wattaneya\\desktop\\iti-submissions\\week 6\\sun day 1 advanced cs\\lab01\\hiredata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D89FBC7B-1593-46CD-9474-42A55BF62069}|lab01.csproj|solutionrelative:hiredata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "EmployeeManager.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\Desktop\\ITI-Submissions\\week 6\\sun day 1 advanced cs\\lab01\\EmployeeManager.cs",
+              "RelativeDocumentMoniker": "EmployeeManager.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\Desktop\\ITI-Submissions\\week 6\\sun day 1 advanced cs\\lab01\\EmployeeManager.cs",
+              "RelativeToolTip": "EmployeeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T03:27:16.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Privileges.cs",
               "DocumentMoniker": "C:\\Users\\El-Wattaneya\\Desktop\\ITI-Submissions\\week 6\\sun day 1 advanced cs\\lab01\\Privileges.cs",
               "RelativeDocumentMoniker": "Privileges.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Gender.cs",
               "DocumentMoniker": "C:\\Users\\El-Wattaneya\\Desktop\\ITI-Submissions\\week 6\\sun day 1 advanced cs\\lab01\\Gender.cs",
               "RelativeDocumentMoniker": "Gender.cs",
@@ -64,26 +81,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "HireData.cs",
               "DocumentMoniker": "C:\\Users\\El-Wattaneya\\Desktop\\ITI-Submissions\\week 6\\sun day 1 advanced cs\\lab01\\HireData.cs",
               "RelativeDocumentMoniker": "HireData.cs",
               "ToolTip": "C:\\Users\\El-Wattaneya\\Desktop\\ITI-Submissions\\week 6\\sun day 1 advanced cs\\lab01\\HireData.cs",
               "RelativeToolTip": "HireData.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-11T01:20:39.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\El-Wattaneya\\Desktop\\ITI-Submissions\\week 6\\sun day 1 advanced cs\\lab01\\Employee.cs",
               "RelativeDocumentMoniker": "Employee.cs",
               "ToolTip": "C:\\Users\\El-Wattaneya\\Desktop\\ITI-Submissions\\week 6\\sun day 1 advanced cs\\lab01\\Employee.cs",
               "RelativeToolTip": "Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-11T01:16:50.881Z",
               "EditorCaption": ""
@@ -96,7 +113,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\El-Wattaneya\\Desktop\\ITI-Submissions\\week 6\\sun day 1 advanced cs\\lab01\\Program.cs*",
               "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwBgAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-11T01:16:18.923Z",
               "EditorCaption": ""

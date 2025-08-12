@@ -87,5 +87,21 @@ namespace lab01
 
             }
         }
+
+        public static bool operator == (HireData a, HireData b) {
+
+             if (a.HiringDate == b.HiringDate)  { return true; }
+             return false;
+        }
+
+        public static bool operator !=(HireData a, HireData b)
+        {
+            
+             if (a.HiringDate != b.HiringDate)  { return true; }
+             return false;
+        }
+
+
+
     }
 }

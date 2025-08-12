@@ -1,0 +1,15 @@
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab02\bin\Debug\net8.0\lab02.exe
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab02\bin\Debug\net8.0\lab02.deps.json
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab02\bin\Debug\net8.0\lab02.runtimeconfig.json
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab02\bin\Debug\net8.0\lab02.dll
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab02\bin\Debug\net8.0\lab02.pdb
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab02\obj\Debug\net8.0\lab02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab02\obj\Debug\net8.0\lab02.AssemblyInfoInputs.cache
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab02\obj\Debug\net8.0\lab02.AssemblyInfo.cs
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab02\obj\Debug\net8.0\lab02.csproj.CoreCompileInputs.cache
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab02\obj\Debug\net8.0\lab02.sourcelink.json
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab02\obj\Debug\net8.0\lab02.dll
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab02\obj\Debug\net8.0\refint\lab02.dll
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab02\obj\Debug\net8.0\lab02.pdb
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab02\obj\Debug\net8.0\lab02.genruntimeconfig.cache
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab02\obj\Debug\net8.0\ref\lab02.dll

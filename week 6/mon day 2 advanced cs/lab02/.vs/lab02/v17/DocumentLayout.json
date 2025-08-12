@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\El-Wattaneya\\Desktop\\ITI-Submissions\\week 6\\mon day 2 advanced cs\\lab02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2427B9CA-B208-47BA-B857-2BBBC29800E2}|lab02.csproj|c:\\users\\el-wattaneya\\desktop\\iti-submissions\\week 6\\mon day 2 advanced cs\\lab02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2427B9CA-B208-47BA-B857-2BBBC29800E2}|lab02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2427B9CA-B208-47BA-B857-2BBBC29800E2}|lab02.csproj|c:\\users\\el-wattaneya\\desktop\\iti-submissions\\week 6\\mon day 2 advanced cs\\lab02\\3d point .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2427B9CA-B208-47BA-B857-2BBBC29800E2}|lab02.csproj|solutionrelative:3d point .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "3D Point .cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\Desktop\\ITI-Submissions\\week 6\\mon day 2 advanced cs\\lab02\\3D Point .cs",
+              "RelativeDocumentMoniker": "3D Point .cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\Desktop\\ITI-Submissions\\week 6\\mon day 2 advanced cs\\lab02\\3D Point .cs",
+              "RelativeToolTip": "3D Point .cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T04:55:18.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\Desktop\\ITI-Submissions\\week 6\\mon day 2 advanced cs\\lab02\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\Desktop\\ITI-Submissions\\week 6\\mon day 2 advanced cs\\lab02\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T04:53:42.708Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
