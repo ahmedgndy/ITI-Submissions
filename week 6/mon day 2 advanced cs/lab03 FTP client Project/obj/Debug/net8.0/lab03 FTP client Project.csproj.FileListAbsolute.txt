@@ -1,0 +1,15 @@
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab03 FTP client Project\bin\Debug\net8.0\lab03 FTP client Project.exe
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab03 FTP client Project\bin\Debug\net8.0\lab03 FTP client Project.deps.json
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab03 FTP client Project\bin\Debug\net8.0\lab03 FTP client Project.runtimeconfig.json
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab03 FTP client Project\bin\Debug\net8.0\lab03 FTP client Project.dll
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab03 FTP client Project\bin\Debug\net8.0\lab03 FTP client Project.pdb
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab03 FTP client Project\obj\Debug\net8.0\lab03 FTP client Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab03 FTP client Project\obj\Debug\net8.0\lab03 FTP client Project.AssemblyInfoInputs.cache
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab03 FTP client Project\obj\Debug\net8.0\lab03 FTP client Project.AssemblyInfo.cs
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab03 FTP client Project\obj\Debug\net8.0\lab03 FTP client Project.csproj.CoreCompileInputs.cache
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab03 FTP client Project\obj\Debug\net8.0\lab03 FTP client Project.sourcelink.json
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab03 FTP client Project\obj\Debug\net8.0\lab03 FTP client Project.dll
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab03 FTP client Project\obj\Debug\net8.0\refint\lab03 FTP client Project.dll
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab03 FTP client Project\obj\Debug\net8.0\lab03 FTP client Project.pdb
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab03 FTP client Project\obj\Debug\net8.0\lab03 FTP client Project.genruntimeconfig.cache
+C:\Users\El-Wattaneya\Desktop\ITI-Submissions\week 6\mon day 2 advanced cs\lab03 FTP client Project\obj\Debug\net8.0\ref\lab03 FTP client Project.dll
